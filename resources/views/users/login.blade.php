@@ -105,6 +105,7 @@
                 <div class="card">
                     <h4 class="text-center">GOWTHAM'S TODO</h4>
                     <p class="noice text-center" style="margin-bottom: 40px;">Organize your day</p>
+					<label class="authenticate-error hidden"></label>
                     <form class="form-horizontal" method="POST" id="login-form">
                         <div class="form-group">
                             <input id="email" type="email" class="form-control" name="email" placeholder="Enter Email">
