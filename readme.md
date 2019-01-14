@@ -5,21 +5,21 @@
 
 
 Step 1: Migration
-		php artisan migrate
+		<p>php artisan migrate</p>
 
 Step 2: Seeding
-		php artisan db:seed
+		<p>php artisan db:seed</p>
 
 Step 3: Open a Terminal
-		php artisan serve
+		<p>php artisan serve</p>
 		
 Step 4: url:http://localhost:8000/user-login
-		Credentials :
-		email:gowtham@gmail.com
-		password:123456789
+		<p>Credentials :</p>
+		<p>email:gowtham@gmail.com</p>
+		<p>password:123456789</p>
 		
 Step 5: Open a new terminal 
-		php artisan queue:work
+		<p>php artisan queue:work</p>
 
 
 
