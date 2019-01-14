@@ -10,6 +10,9 @@ Step 1: Migration
 Step 2: Seeding
 		<p>php artisan db:seed</p>
 
+Step 2: Passport
+		<p>php artisan passport:install</p>
+
 Step 3: Open a Terminal
 		<p>php artisan serve</p>
 		
