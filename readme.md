@@ -13,7 +13,7 @@ Step 2: Seeding
 Step 3: Open a Terminal
 		<p>php artisan serve</p>
 		
-Step 4: url:http://localhost:8000/user-login
+Step 4: url:http://localhost:8000
 		<p>Credentials :</p>
 		<p>email:gowtham@gmail.com</p>
 		<p>password:123456789</p>

@@ -206,7 +206,7 @@
 
 					},
 					401: function(data) {
-						location.href = 'http://localhost:8000/user-login';
+						location.href = 'http://localhost:8000/';
 					}
 				},
 			})
@@ -279,7 +279,7 @@
 						location.reload();
 					},
 					401: function(data) {
-						location.href = 'http://localhost:8000/user-login';
+						location.href = 'http://localhost:8000/';
 					}
 				},
 			})
@@ -304,7 +304,7 @@
 						location.reload();
 					},
 					401: function(data) {
-						location.href = 'http://localhost:8000/user-login';
+						location.href = 'http://localhost:8000/';
 					}
 				},
 			})
@@ -316,7 +316,7 @@
 
 		$("#logout").click(function() {
 			localStorage.removeItem("Authorization")
-			location.href = 'http://localhost:8000/user-login';
+			location.href = 'http://localhost:8000/';
 		});
 
 	</script>
