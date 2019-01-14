@@ -56,8 +56,9 @@ class UserController extends Controller
     public function details() 
     { 
         $user = Auth::user(); 
-		$task = Task::where('user_id',$user->id)->get();
-        return response()->json(['success' => $task], $this-> successStatus); 
+		$pendingtask = Task::where('user_id',$user->id)->where('status','pending')->get();
+		$completedtask = Task::where('user_id',$user->id)->where('status','completed')->get();
+        return response()->json(['pendingtask' => $pendingtask,'completedtask' => $completedtask,'user' => $user], $this-> successStatus); 
     } 
 	
 	/** 
