@@ -213,6 +213,9 @@
 		.margin-pending{
 			margin-top: 60px;
 		}
+		#description{
+			resize: none;
+		}
 
 	</style>
 
@@ -408,8 +411,8 @@
 			},
 			messages: {
 				description: {
-					minlength:"Minimum Chracter 80",
-					maxlength:"Maximum Character 150"
+					minlength:"Description should be minimum 80 character.",
+					maxlength:"Description should be maximum 150 character."
 				},
 				granularity: {
 					valueNotEquals: "Please Select a Granularity"
